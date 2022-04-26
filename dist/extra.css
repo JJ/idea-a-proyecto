@@ -17,7 +17,7 @@ blockquote:before {
 }
 
 section[data-background] h1 { 
-       background-color:rgba(23,22,21,0.6);
+       background-color:rgba(223,122,121,0.6);
        padding: 30px;
        margin: 15px;
        border-radius: 30px
@@ -29,10 +29,10 @@ h1 strong {
 }
 
 section[data-background] h2 {
-       background-color:rgba(13,23,23,0.7);
-       padding: 30px;
-       margin: 15px;
-       border-radius: 20px
+       background-color:rgba(113,123,123,0.7);
+       padding: 20px;
+       margin: 10px;
+       border-radius: 15px
 }
 
 section[data-background] ul {
