@@ -27,9 +27,20 @@
 	<script src="plugin/highlight/highlight.js"></script>
 	<script>
 	 Reveal.initialize({
-	     hash: true,
-             width: "99%",
+             {   width: window.innerWidth,
+                 height: window.innerHeight
+	         hash: true,
+                 width: "99%",
 	 });
+
+         var resizeSlide = function() {
+             Reveal.configure({
+                 width: window.innerWidth,
+                 height: window.innerHeight
+             });
+         }
+
+         setInterval(resizeSlide, 1000);
 	</script>
     </body>
 </html>
